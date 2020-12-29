@@ -1,10 +1,12 @@
 
 Colours:
-Dark Navy: #1b172a
-Turquoise: #40ffff
-Softer Pastel Blue: #adcada
-Mauve: #5e1a44
-White: #ffffff
+- BASE: #fff white
+- coral: #FFC18E
+- pink: #FFA9A8
+- blue: #8BECFF
+- black: #040404
+- grey: #e6e6e6
+
 
 # Getting Started with Create React App
 
