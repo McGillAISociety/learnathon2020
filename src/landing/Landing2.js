@@ -6,6 +6,7 @@ import Monster from './mcgillai_monster.png';
 
 
 class Landing2 extends Component {
+
   render() {
     return ( // type "cobweb is pre cool" as is square
       <header id="home">
@@ -19,7 +20,9 @@ class Landing2 extends Component {
             <li><a className="smoothscroll" href="#about">About</a></li>
             <li><a className="smoothscroll" href="#speakers">Speakers</a></li>
             <li><a className="smoothscroll" href="#schedule">Schedule</a></li>
-	    <li><a className="smoothscroll" href="#faq">FAQ</a></li>
+	          <li><a className="smoothscroll" href="#faq">FAQ</a></li>
+            <li><a className="smoothscroll" href="#sponsors">Sponsors</a></li>
+
 
 
          </ul>

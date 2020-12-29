@@ -1,8 +1,6 @@
 import React from 'react';
 import styled from '@emotion/styled';
-
 import './landing.css';
-
 
 const Container = styled('div')`
   width: 940px;
