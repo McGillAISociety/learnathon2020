@@ -5,14 +5,16 @@ import Title from '../Title.js';
 class About extends Component {
   render(){
     return (
-      <section id = "about">
-      <div className = "row">
-          <Title titleColor = "#1b172a"> About Section </Title>
+        <section id = "about">
+          <Title titleColor = "#ffc18e"> Montreal's Most Exciting
+          And Student Friendly AI Conference </Title>
+          <p> McGill AI have organised a series of tailored talks
+          and events in the form of a conference, open to interested,
+          curious, and ambitious students from high school to graduate level.
+          Come and listen to some of the most acclaimed researchers in the
+          diverse field of AI!
+          </p>
 
-          <p> Hi testing this out! Kido is Awesome </p>
-          <h2> This is where we write what the Learnathon is about </h2>
-
-      </div>
       </section>
     );
   }
