@@ -19,6 +19,8 @@ class Landing2 extends Component {
             <li><a className="smoothscroll" href="#about">About</a></li>
             <li><a className="smoothscroll" href="#speakers">Speakers</a></li>
             <li><a className="smoothscroll" href="#schedule">Schedule</a></li>
+	    <li><a className="smoothscroll" href="#faq">FAQ</a></li>
+
 
          </ul>
       </nav>
