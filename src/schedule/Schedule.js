@@ -49,7 +49,7 @@ class Schedule extends Component{
     const {selectedDayIndex} = this.state;
     return(
       <section id = "schedule">
-        <Title titleColor = "#adcada">Schedule</Title>
+        <Title titleColor = "#ffc18e">Schedule</Title>
         <div className="twocolumns">
           <div className="col1">
             <div className="SectionTextContent">
