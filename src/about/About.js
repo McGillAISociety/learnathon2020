@@ -7,6 +7,7 @@ class About extends Component {
   render(){
     return (
         <section id = "about">
+
           <div className = "background-monster">
           <img className = "background-monster" src={monster} alt="monster"/>
           <Title titleColor = "#ffc18e"> Montreal's Most Exciting
