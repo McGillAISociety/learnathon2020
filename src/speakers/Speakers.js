@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Rolnick from './David Rolnick.jpg';
 import Hamilton from './William Hamilton.jpg'
 import Charlie from './charlie.jpg';
+import {motion} from 'framer-motion';
 
 import Title from '../Title.js';
 
@@ -15,6 +16,11 @@ class Speakers extends Component {
             <Title titleColor="#8becff"> Speakers </Title>
               <div className = "row">
                 <div className = "column">
+                  <motion.div
+                    initial={false}
+                    whileHover={{scale: 1.1}}
+                    className="speaker-animate"
+                  >
                   <div className="card">
                     <img className="speaker-pic" src = {Rolnick} alt = "Prof Rolncik" />
                     <div className = "container">
@@ -23,9 +29,14 @@ class Speakers extends Component {
                     <p> This is where we'll put stuff that they've done.</p>
                     </div>
                   </div>
+                </motion.div>
                 </div>
 
                 <div className = "column">
+                <motion.div
+                  whileHover={{scale: 1.1}}
+                  whileTap={{scale:1}}
+                >
                   <div className="card">
                     <img className="speaker-pic" src = {Charlie} alt = "Charlie" />
                     <div className = "container">
@@ -34,6 +45,7 @@ class Speakers extends Component {
                     <p> This is where we'll put stuff that they've done.</p>
                     </div>
                   </div>
+                </motion.div>
                 </div>
 
                 <div className = "column">
@@ -50,7 +62,7 @@ class Speakers extends Component {
 
               </div>
           </div>
-        
+
       </section>
     );
   }

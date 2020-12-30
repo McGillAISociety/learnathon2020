@@ -3,7 +3,7 @@ import ParticlesBg  from "particles-bg";
 import Banner from './conference_banner.png';
 import WhiteBanner from './white_logo.png';
 import Monster from './mcgillai_monster.png';
-
+import Transparent from './learnathon_title_transparent.png';
 
 class Landing2 extends Component {
 
@@ -31,7 +31,7 @@ class Landing2 extends Component {
 
       <div className = "row banner">
           <div className = "banner-text">
-            <img src={Monster} alt="logo"/>
+            <img src={Transparent} alt="logo"/>
             <h1> Coming to you 6 Feb 2021! </h1>
             <div className="sub-head">
             <h3> New year, new you! Start 2021 with a blast and

@@ -64,6 +64,8 @@ div .banner-text h3 {
 header .banner img {
   background-size: contain;
   max-width: 100%;
+  margin-left:auto;
+  margin-right: auto;
   height: 300px;
   margin-top: 90px;
   padding-bottom: 0px;
@@ -173,6 +175,19 @@ ul#nav li.current a { color: #8becff;
   width: 70%;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+}
+
+#about .background-monster{
+  width: 95%;
+}
+
+#about .background-monster img {
+  height: 140px;
+  width: auto;
+  position: absolute;
+  left: 10%;
+
 }
 
 /**
@@ -232,6 +247,7 @@ ul#nav li.current a { color: #8becff;
 #speakers .card{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
   display: table;
+  border-radius: 2%;
   background-image: linear-gradient(#8becff, #fff);
 }
 
@@ -265,8 +281,9 @@ ul#nav li.current a { color: #8becff;
 }
 
 #speakers .speaker-name{
-    font-size: 15px;
-    color: "#2b2b2b";
+    letter-spacing: 2px;
+    font-size: 22px;
+    color: "#040404";
     font-weight: bold;
 }
 
@@ -315,7 +332,7 @@ ul#nav li.current a { color: #8becff;
 }
 
 #faq .faq-container{
-  width: 70%;
+  width: 65%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
@@ -367,10 +384,11 @@ ul#nav li.current a { color: #8becff;
   overflow: hidden;
   color: #040404;
   background-color: #FFFFFF;
+  text-align: center;
   font-family: 'Montserrat', monospace;
   font-size: 17px;
-  padding: 0 20px;
-  margin: 3px;
+  padding: 0 10px;
+  margin: 2px;
 }
 
 #faq .accordion .accordion-item.active .title {
@@ -390,6 +408,42 @@ ul#nav li.current a { color: #8becff;
   transition: max-height 0.25s ease-in;
 }
 
+/************************************************/
+/** Sponsors **/
+/********************************************************/
+
+#sponsors {
+  text-align:center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sponsors .column {
+  text-align: center;
+  float: left;
+  width: 50%;
+  margin-bottom: 16px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+@media screen and (max-width: 650px){
+  #speakers .column{
+    width: 100%;
+    display: block;
+  }
+}
+
+#sponsors .column img{
+  height: 140px;
+}
+
+#sponsors .row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
 /*************************************/

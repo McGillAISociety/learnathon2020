@@ -1,11 +1,14 @@
 import React, {Component} from 'react';
 import styled from '@emotion/styled';
 import Title from '../Title.js';
+import monster from './char3.png';
 
 class About extends Component {
   render(){
     return (
         <section id = "about">
+          <div className = "background-monster">
+          <img className = "background-monster" src={monster} alt="monster"/>
           <Title titleColor = "#ffc18e"> Montreal's Most Exciting
           And Student Friendly AI Conference </Title>
           <p> McGill AI have organised a series of tailored talks
@@ -14,7 +17,7 @@ class About extends Component {
           Come and listen to some of the most acclaimed researchers in the
           diverse field of AI!
           </p>
-
+          </div>
       </section>
     );
   }
