@@ -2,6 +2,7 @@
 
 body { background: #fff};
 
+
 /* Header Styles */
 
 header {
@@ -187,7 +188,6 @@ ul#nav li.current a { color: #8becff;
   width: auto;
   position: absolute;
   left: 10%;
-
 }
 
 /**
@@ -229,7 +229,7 @@ ul#nav li.current a { color: #8becff;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  }
+}
 
 #speakers .column {
   float: left;
@@ -247,6 +247,7 @@ ul#nav li.current a { color: #8becff;
 #speakers .card{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
   display: table;
+  height: 1fr;
   border-radius: 2%;
   background-image: linear-gradient(#8becff, #fff);
 }
@@ -297,9 +298,8 @@ ul#nav li.current a { color: #8becff;
   padding: 20px;
 }
 
-#schedule .twocolumns{
+#schedule .container{
   position: relative;
-  float: center;
   width: 90%;
   padding: 10px;
   margin-left: auto;
@@ -307,18 +307,163 @@ ul#nav li.current a { color: #8becff;
 
 }
 
-#schedule .col1 {
+#schedule .columns {
+  display:table;
   position: relative;
+  width: 25%;
+  float: left;
   content: '';
   background-color: #8becff;
   text-align: center;
 }
 
-#schedule .col2 {
-  position: relative;
-  content: '';
+#schedule .columns p .time {
+  font-style: "opensans", sans-serif;
+  letter-spacing: 1.5px;
+}
+
+#schedule .columns p .event1{
+  background-color: #ffc18e;
+  font-style: "opensans", sans-serif;
+  letter-spacing: 1.2px;
+  font-weight: bold;
+}
+
+#schedule h1 {
+  font-style: "opensans-bold", sans-serif;
+  font-weight: bolder;
   background-color: #e6e6e6;
 }
+
+
+/**************************
+Schedule 2 css ******************/
+$blockTimes:
+945, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800;
+$blockLengths: 1, 2, 3;
+
+#schedule2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  min-height: 100vh;
+  padding: 4rem 0;
+  font-family: "opensans", sans-serif;
+}
+
+#schedule2 .main-content{
+  width: 80%;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 90px;;
+}
+
+#schedule2 .background-monster{
+  width: 95%;
+}
+
+#schedule2 .background-monster img {
+  height: 180px;
+  width: auto;
+  position: absolute;
+  right: 5%;
+  margin-top: -80px;
+  z-index:-3;
+}
+@media screen and (min-width:700px){
+
+
+
+#schedule2 .scheduleContainer {
+  display: grid;
+  grid-gap: 0.2rem;
+  grid-template-rows:
+    [tracks] auto
+    [time-0945] 1fr
+    [time-1000] 1fr
+    [time-1100] 1fr
+    [time-1200] 1fr
+    [time-1300] 1fr
+    [time-1400] 1fr
+    [time-1500] 1fr
+    [time-1600] 1fr
+    [time-1700] 1fr
+    [time-1800] 1fr;
+  grid-template-columns:
+    [times] 4rem
+    [track-1-start] 1fr
+    [track-1-end track-2-start] 1fr
+    [track-2-end track-3-start] 1fr
+    [track-3-end];
+
+  }
+}
+
+#schedule .time-slot { grid-column: times;}
+#schedule .slot {display: none;}
+
+@supports(display:grid){
+  @media screen and (min-width:700px){
+    #schedule .slot{
+      display: block;
+      padding: 10px 5px 5px;
+      position: sticky;
+      top: 0
+      z-index: 1000;
+      background-color: #e6e6e6;
+    }
+  }
+}
+
+#schedule2 .session{margin-bottom: 1em;}
+@supports(display:grid){
+  @media screen and (min-width:700px){
+    #schedule .session {margin:0;}
+  }
+}
+
+#schedule2 .session{
+  padding: .5em;
+  border-radius:0.2em;
+  font-size: 18px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+#schedule2 .session-time,
+.session-track, .session-presenter {display: block;}
+
+#schedule2 .session-title{
+  display: block;
+  color: #fff;
+  text-decoration-style: dotted;
+  margin:0;
+  font-size: 1em;
+}
+#schedule2 .time-slot{
+  margin:auto;
+  font-size: .75em;
+  font-weight: bold;
+}
+
+#schedule2 .track-slot{font-weight:bold;}
+
+#schedule2 .track-1 {background-color: #ffa9a8;}
+#schedule2 .track-2 {background-color: #8becff;}
+#schedule2 .track-3 {background-color: #ffc18e;}
+#schedule2 .track-all{background-color: #e6e6e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#schedule2 .text { max-width: 750px;
+  font-size: 18px;
+  margin: 0 auto 50px;}
+
+
+
+
 
 /**************************************/
 /** FAQ **/
