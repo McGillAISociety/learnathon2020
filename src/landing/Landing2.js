@@ -24,7 +24,6 @@ class Landing2 extends Component {
             <li><a className="smoothscroll" href="#sponsors">Sponsors</a></li>
 
 
-
          </ul>
       </nav>
       <ParticlesBg type="circle" color={["#ffc18e", "#ffa9a8", "#e6e6e6", "8becff"]} bg={true} />

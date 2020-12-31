@@ -21,6 +21,7 @@ class Schedule2 extends Component{
           <h2 className="time-slot" style={{"grid-row": "time-0945"}}>9:45am</h2>
           <div className="session session-1 track-all" style={{"grid-column":"track-1-start / track-3-end", "grid-row":"time-0945 / time-1000"}}>
             <h3 className="session-title">Opening Session</h3>
+            <span>time </span>
           </div>
 
           <h2 className="time-slot" style={{"grid-row": "time-1000"}}>10:00am</h2>
