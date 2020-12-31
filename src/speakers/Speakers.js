@@ -14,58 +14,28 @@ class Speakers extends Component {
 
           <div className="content">
             <Title titleColor="#8becff"> Speakers </Title>
-              <div className = "row">
-                <div className = "column">
-                  <motion.div
-                    initial={{scale: 0.9}}
-                    whileHover={{scale: 1}}
-                    className="speaker-animate"
-                  >
-                  <div className="card">
-                    <img className="speaker-pic" src = {Rolnick} alt = "Prof Rolncik" />
-                    <div className = "container">
-                    <h2 className="speaker-name">David Rolnick</h2>
-                    <p className = "position-title"> ML &amp; Climate Change </p>
-                    <p> This is where we'll put stuff that they've done.</p>
-                    </div>
-                  </div>
-                </motion.div>
-                </div>
-
-                <div className = "column">
+              <div class="gallery js-flickity">
+                <div class="gallery-cell">
                 <motion.div
                   initial={{scale: 0.9}}
                   whileHover={{scale: 1}}
+                  className="speaker-animate"
                 >
-                  <div className="card">
-                    <img className="speaker-pic" src = {Charlie} alt = "Charlie" />
-                    <div className = "container">
-                    <h2 className="speaker-name">Margarita Mayoral Villa</h2>
-                    <p className = "position-title"> Physicist &amp; Lead AI/Data Scientist</p>
-                    <p> This is where we'll put stuff that they've done.</p>
-                    </div>
-                  </div>
-                </motion.div>
-                </div>
-
-                <div className = "column">
-                <motion.div
-                  initial={{scale: 0.9}}
-                  whileHover={{scale: 1}}
-                >
-                  <div className="card">
-                    <img className="speaker-pic" src = {Hamilton} alt = "Prof Hamilton" />
-                    <div className = "container">
-                    <h2 className="speaker-name">William Hamilton</h2>
-                    <p className = "position-title"> Graph Representation Learning &amp; Graph Neural Networks </p>
-                    <p> This is where we'll put stuff that they've done.</p>
-                    </div>
-                  </div>
+                  <img className=" speaker-pic" src= {Rolnick} alt = "Rolnick" />
                   </motion.div>
+                  <p className="position-title"> ML &amp; Climate Change </p>
                 </div>
-
-
+                <div class="gallery-cell">
+                  <img className=" speaker-pic" src= {Charlie} alt = "Charlie" />
+                  <p className="position-title">Physicist &amp; Lead AI / Data Scientist </p>
+                </div>
+                <div class="gallery-cell">
+                  <img className=" speaker-pic" src= {Hamilton} alt = "Hamilton" />
+                  <p className="position-title">Graph Representation &amp; Graph Neural Networks </p>
+                </div>
               </div>
+
+
           </div>
 
       </section>

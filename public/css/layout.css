@@ -278,6 +278,37 @@ ul#nav li.current a { color: #8becff;
     font-weight: bold;
 }
 
+#speakers * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#speakers .gallery {
+  margin: 2%;
+}
+
+#speakers .gallery-cell{
+  width: 30%;
+  height: 500px;
+  margin-right: 10px;
+  background: #8becff;
+  border-radius:2%;
+  counter-increment: gallery-cell;
+}
+
+#speakers .gallery-cell.is-selected{
+  background-image: linear-gradient(#8becff, #fff);
+}
+
+#speakers.gallery-cell:before{
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size:20px;
+  color:white;
+}
+
+
 /***************************************/
 /* Schedule */
 /***************************************/
