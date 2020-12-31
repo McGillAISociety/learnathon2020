@@ -17,8 +17,8 @@ class Speakers extends Component {
               <div className = "row">
                 <div className = "column">
                   <motion.div
-                    initial={false}
-                    whileHover={{scale: 1.1}}
+                    initial={{scale: 0.9}}
+                    whileHover={{scale: 1}}
                     className="speaker-animate"
                   >
                   <div className="card">
@@ -34,8 +34,8 @@ class Speakers extends Component {
 
                 <div className = "column">
                 <motion.div
-                  whileHover={{scale: 1.1}}
-                  whileTap={{scale:1}}
+                  initial={{scale: 0.9}}
+                  whileHover={{scale: 1}}
                 >
                   <div className="card">
                     <img className="speaker-pic" src = {Charlie} alt = "Charlie" />
@@ -49,6 +49,10 @@ class Speakers extends Component {
                 </div>
 
                 <div className = "column">
+                <motion.div
+                  initial={{scale: 0.9}}
+                  whileHover={{scale: 1}}
+                >
                   <div className="card">
                     <img className="speaker-pic" src = {Hamilton} alt = "Prof Hamilton" />
                     <div className = "container">
@@ -57,6 +61,7 @@ class Speakers extends Component {
                     <p> This is where we'll put stuff that they've done.</p>
                     </div>
                   </div>
+                  </motion.div>
                 </div>
 
 
