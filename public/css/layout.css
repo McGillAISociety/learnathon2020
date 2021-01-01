@@ -181,6 +181,7 @@ ul#nav li.current a { color: #8becff;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
 }
 
 #about .background-monster{
@@ -196,6 +197,27 @@ ul#nav li.current a { color: #8becff;
   right: 5%;
 }
 
+#about .wrapper{
+  padding: 1rem;
+  background: #fff;
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: .8rem;
+}
+
+#about .column{
+  padding-top:auto;
+  padding-bottom: auto;
+  align-items: start;
+  align-text: center;
+  border-radius: .2rem;
+  background-color: #ffa9a8;
+  padding: .5rem;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+
 /**
 #about a, #about a:visited {color: #e6e6e6;}
 #about a:hover, #about a:focus { color: #8becff;}
@@ -203,7 +225,7 @@ ul#nav li.current a { color: #8becff;
 
 #about p {
   color: #040404;
-  font-size: 1em;
+  font-size: 0.8em;
   font-family: 'opensans', sans-serif;
   margin-bottom: 12px;
   letter-spacing: 1.2px;
@@ -554,7 +576,7 @@ $blockLengths: 1, 2, 3;
 #faq .accordion .accordion-item .title{
   margin: 3px;
   border-radius: 2px;
-  font-size: 1em;
+  font-size: 0.8em;
   padding: 10px;
   font-family: 'opensans', sans-serif;
   letter-spacing: 1px;
@@ -593,7 +615,7 @@ $blockLengths: 1, 2, 3;
   background-color: #FFFFFF;
   text-align: center;
   font-family: 'opensans', sans-serif;
-  font-size: 17px;
+  font-size: 16px;
   padding: 0 10px;
   margin: 2px;
 }

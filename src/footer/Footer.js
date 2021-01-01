@@ -29,12 +29,12 @@ const CenterContent = styled('div')`
 `;
 
 const footerLink = css`
-  color: white ;
+  color: #fff ;
   transition: opacity 0.2s;
   text-decoration: none !important;
   :hover {
-    opacity: 0.8;
-    color:#8becff ;
+
+    color:#ffc18e ;
   }
 `;
 
@@ -45,6 +45,9 @@ const SocialLinks = styled('div')`
   align-items: center;
   text-align: center;
   justify-content: center;
+  background-color:#a1a1a1;
+  border-radius: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
   display: flex;
   > a {
     font-size: 50px;
@@ -79,12 +82,7 @@ export default () => (
 
         <SocialLinks>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-         <a
-            aria-label="Contact Us"
-            alt="social-contact-us"
-            href="mailto:mcgillaicontact@gmail.com"
-           class='fa fa-at'
-          />
+
           <a
             aria-label="Facebook"
             href="https://www.facebook.com/McGillAI/"
