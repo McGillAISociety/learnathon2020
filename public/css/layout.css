@@ -1,6 +1,7 @@
 /* Generatl Styles **/
 
-body { background: #fff};
+body { background: #fff;
+  font: "opensans", sans-serif;};
 
 
 /* Header Styles */
@@ -54,9 +55,10 @@ div .sub-head {
 }
 div .banner-text h3 {
   color: #040404;
-  margin-top: -100px;
-  font: 'opensans-bold', sans-serif;
-  letter-spacing: 1px;
+  margin-top: -80px;
+  font-size: 1em;
+  font-family: 'opensans', sans-serif;
+  letter-spacing: 1.2px;
   margin-left: auto;
   margin-right: auto;
 
@@ -103,7 +105,7 @@ header .scrolldown a:hover { color:#ffa9a8;}
 #nav-wrap {
    font: 15px 'opensans-bold', sans-serif;
    width: 100%;
-   font-weight: bolder;
+   font-weight: bold;
    text-transform: uppercase;
    letter-spacing: 2.5px;
    margin: 0 auto;
@@ -171,18 +173,19 @@ ul#nav li.current a { color: #8becff;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
 }
 
 #about .background-monster{
   width: 95%;
+  margin-left: auto;
+  margin-right:auto;
 }
 
 #about .background-monster img {
   width: 15%;
   height: auto;
   position: absolute;
-  left: 7%;
+  right: 5%;
 }
 
 /**
@@ -192,11 +195,14 @@ ul#nav li.current a { color: #8becff;
 
 #about p {
   color: #040404;
-  font-size: 20px;
+  font-size: 1em;
   font-family: 'opensans', sans-serif;
   margin-bottom: 12px;
   letter-spacing: 1.2px;
   line-height: 25px;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 
@@ -261,10 +267,11 @@ ul#nav li.current a { color: #8becff;
 #speakers .position-title {
   letter-spacing: 2px;
   color: #040404;
+  margin-top: -8px;
 }
 
 #speakers .speaker-pic{
-    max-width: 70%;
+    max-width: 60%;
     height: auto;
     border-radius: 3%;
     padding-top: 10px;
@@ -272,10 +279,11 @@ ul#nav li.current a { color: #8becff;
 }
 
 #speakers .speaker-name{
-    letter-spacing: 2px;
-    font-size: 22px;
+    letter-spacing: 1.2px;
+    font-size: 1.2em;
     color: "#040404";
     font-weight: bold;
+    margin-top:-8px;
 }
 
 #speakers * {
@@ -288,17 +296,28 @@ ul#nav li.current a { color: #8becff;
 }
 
 #speakers .gallery-cell{
-  width: 30%;
+  width: 40%;
   height: 500px;
   margin-right: 10px;
   background: #8becff;
   border-radius:2%;
-  counter-increment: gallery-cell;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
 }
 
 #speakers .gallery-cell.is-selected{
   background-image: linear-gradient(#8becff, #fff);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
+
+#speakers .speaker-description {
+  font: 'opensans', sans-serif;
+  font-size: 0.8em;
+  color: #040404;
+  margin-top:-8px;
+}
+
 
 #speakers.gallery-cell:before{
   display: block;
@@ -306,6 +325,20 @@ ul#nav li.current a { color: #8becff;
   line-height: 200px;
   font-size:20px;
   color:white;
+}
+
+#speakers .background-monster{
+  width: 100%;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+#speakers .background-monster img {
+  width: 25%;
+  height: auto;
+  position: absolute;
+  left: -10px;
+  margin-top:-50px;
 }
 
 
@@ -508,6 +541,10 @@ $blockLengths: 1, 2, 3;
 #faq .accordion {
   border-radius: 5px;
   white-space: pre-line;
+  width: 80%;
+  font: 'opensans', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #faq .accordion .accordion-item: first-child .title {
@@ -520,10 +557,11 @@ $blockLengths: 1, 2, 3;
   border-radius: 2px;
   font-size: 18px;
   padding: 10px;
-  font-family: 'opensans-bold', sans-serif;
+  font-family: 'opensans', sans-serif;
+  letter-spacing: 1px;
   background-color: #ffc18e;
-  color: #040404;
-  font-weight: bold;
+  color: #fff;
+  font-weight:  100px;
   cursor: pointer;
   width: 100%;
   text-align: center;
@@ -551,7 +589,7 @@ $blockLengths: 1, 2, 3;
   color: #040404;
   background-color: #FFFFFF;
   text-align: center;
-  font-family: 'Montserrat', monospace;
+  font-family: 'opensans', sans-serif;
   font-size: 17px;
   padding: 0 10px;
   margin: 2px;
@@ -567,7 +605,7 @@ $blockLengths: 1, 2, 3;
   padding-left: 20px;
 }
 #faq .accordion .accordion-item.active .panel{
-  max-height: 100px;
+  max-height: 200px;
 
   -webkit-transition: max-height 0.25s ease-in;
   -o-transition: max-height 0.25s ease-in;

@@ -16,7 +16,7 @@ class FAQ extends Component{
       <div>
       <Accordion atomic ={true}>
         <AccordionItem title = "Can I register for this conference?">
-        <p> Yes! Anyone can participate. The event if open to everyone
+        <p> Yes! Anyone can participate. The event is open to everyone
         interested in learning more about AI. </p>
         </AccordionItem>
 

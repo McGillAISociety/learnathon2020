@@ -1273,12 +1273,12 @@ html { font-size: 17px; }
 html.export { font-size: 15px; }
 
 a {
-  color: #6A6;
-  text-decoration: none;
+  color: #040404;
+  text-decoration: underline #ffc18e;
 }
 
 a:hover {
-  color: #E90;
+  color: #ffa9a8;
 }
 
 h1, h2, h3 {

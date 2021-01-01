@@ -7,9 +7,9 @@ const FooterContainer = styled('div')`
   display: flex;
   background-image: linear-gradient(#FFA9A8, #ffc18e);
   flex-direction: row;
-  height: 200px;
-  padding-top: 100px;
+  padding-top: 70px;
   width: 100%;
+  padding-bottom: 20px;
 `;
 
 const CenterContainer = styled('div')`
