@@ -2,6 +2,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 import { css, jsx } from '@emotion/react';
 import BackToTop from 'react-back-to-top-button';
+import monster from './char4.png';
 
 const FooterContainer = styled('div')`
   display: flex;
@@ -28,11 +29,12 @@ const CenterContent = styled('div')`
 `;
 
 const footerLink = css`
-  color: white !important;
+  color: white ;
   transition: opacity 0.2s;
   text-decoration: none !important;
   :hover {
-    opacity: 0.6;
+    opacity: 0.8;
+    color:#8becff ;
   }
 `;
 
@@ -61,12 +63,17 @@ const year = new Date().getFullYear();
 
 export default () => (
   <FooterContainer>
-    <BackToTop speed = {1500}
-      easing = "easeInOutQuint">
-      <i className = "fa fa-arrow-up"></i>
-    </BackToTop>
+  <img className="monster-dude" src={monster} alt='monster dude'/>
+
+  <BackToTop speed = {1500}
+    easing = "easeInOutQuint">
+    <i id = "up-button" className = "fa fa-arrow-circle-up" ></i>
+  </BackToTop>
+
     <CenterContainer>
+
       <CenterContent>
+
         <SocialLinks>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
          <a

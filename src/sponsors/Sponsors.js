@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Title from '../Title.js';
 import monstersponsor from './char5.png';
+import SponsorLogos from './SponsorLogos';
 
 class Sponsors extends Component {
   render(){
@@ -14,8 +15,7 @@ class Sponsors extends Component {
             <p> button will go here to email Philip </p>
           </div>
           <div className="column">
-            <p> Sponsor Logos go here! </p>
-            <img src={monstersponsor} alt="monster sponsor"></img>
+            <SponsorLogos/>
           </div>
         </div>
       </section>

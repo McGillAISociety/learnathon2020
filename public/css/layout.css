@@ -210,11 +210,12 @@ ul#nav li.current a { color: #8becff;
 /** Speaker Section **/
 /*------------------------------------------------*/
 #speakers {
-  background-image: linear-gradient(#ffc18e, #ffa9a8);
   padding-top: 90px;
   padding-bottom: 72px;
   overflow: hidden;
   transform: skewY(-6deg);
+  background-image: linear-gradient(#ffc18e, #ffa9a8);
+
 }
 
 #speakers .content{
@@ -240,29 +241,6 @@ ul#nav li.current a { color: #8becff;
   }
 }
 
-#speakers .card{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
-  display: table;
-  height: 1fr;
-  border-radius: 2%;
-  background-image: linear-gradient(#8becff, #fff);
-}
-
-#speakers .card:hover{
-  background-color: #e6e6e6;
-  cursor: pointer;
-}
-
-#speakers .container{
-  padding: 0 16px;
-  background-color: #fff;
-}
-
-#speakers .container::after, .row::after{
-  content: "";
-  clear: both;
-  display: table;
-}
 
 #speakers .position-title {
   letter-spacing: 2px;
@@ -291,11 +269,12 @@ ul#nav li.current a { color: #8becff;
   box-sizing: border-box;
 }
 
+
 #speakers .gallery {
   margin: 2%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
   border-radius: 2%;
-  background-image: radial-gradient(#ffa9a8, #ffc18e);
+  background-image: radial-gradient(#ffc18e, #fff);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 
 }
 
@@ -352,7 +331,6 @@ ul#nav li.current a { color: #8becff;
 #schedule {
   margin-top: 100px;
   overflow: hidden;
-  background-image: linear-linear-gradient(#fff, #8becff);
   padding: 20px;
 }
 
@@ -635,9 +613,10 @@ $blockLengths: 1, 2, 3;
 
 #sponsors {
   text-align:center;
-  width: 80%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
+  background-image: linear-gradient(#fff, #ffa9a8);
 }
 
 #sponsors .column {
@@ -670,27 +649,21 @@ $blockLengths: 1, 2, 3;
 /*************************************/
 /* Footer stuff **/
 /******************************************************/
-#go-top {
-  position: absolute;
-  top: -24px;
-  left: 50%;
-  margin-left: -30px;
+#up-button{
+  color: #fff;
+  left: 41.5%;
+  text-decoration: overline #8becff 6px;
+  position: relative;
+  top:-10px;
 }
-#go-top a {
-  text-decoration: none;
-  border: 0 none;
-  display: block;
-  width: 20px;
-  background-color: #8becff;
-  -webkit-transition: all 0.2s ease-in-out;
-   -moz-transition: all 0.2s ease-in-out;
-   -o-transition: all 0.2s ease-in-out;
-   -ms-transition: all 0.2s ease-in-out;
-   transition: all 0.2s ease-in-out;
 
-   color: #fff;
-   font-size: 21px;
-   line-height: 60px;
- 	 border-radius: 100%;
+.monster-dude {
+  width: 9%;
+  position: fixed;
+  bottom: 16%;
+  right: 1.2%;
 }
-#go-top a:hover{background-color: #ffc18e;}
+
+#up-button:hover{
+  color: #e6e6e6;
+}
