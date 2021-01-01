@@ -474,7 +474,7 @@ $blockLengths: 1, 2, 3;
   }
 }
 
-#schedule2 .session{margin-bottom: 1em;}
+#schedule2 .session{margin-bottom: 0.2em;}
 @supports(display:grid){
   @media screen and (min-width:700px){
     #schedule .session {margin:0;}
@@ -484,7 +484,6 @@ $blockLengths: 1, 2, 3;
 #schedule2 .session{
   padding: 0.4em;
   border-radius: 0.2em;
-  font-size: 18px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
 
@@ -494,7 +493,6 @@ $blockLengths: 1, 2, 3;
 
 #schedule2 .session-title{
   display: block;
-  text-decoration: underline;
   font: 'opensans', sans-serif;
   font-weight: bold;
   letter-spacing: 1.2px;
@@ -570,12 +568,12 @@ $blockLengths: 1, 2, 3;
 #faq .accordion .accordion-item .title{
   margin: 3px;
   border-radius: 2px;
-  font-size: 18px;
+  font-size: 1em;
   padding: 10px;
   font-family: 'opensans', sans-serif;
   letter-spacing: 1px;
-  background-color: #ffc18e;
-  color: #fff;
+  background-image: linear-gradient(#ffc18e, #ffa9a8);
+  color: #040404;
   font-weight:  100px;
   cursor: pointer;
   width: 100%;
@@ -585,14 +583,18 @@ $blockLengths: 1, 2, 3;
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
   transition: 0.4s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+
+
 }
 
 /*** THIS ONE DOENST WORK NOT SURE WHY **/
-#faq .accordion .accordion-item .title: after{
+#faq .accordion .accordion-item .title::after{
   content: '\f107';
   font-family: "FontAwesome";
   padding-left: 20px;
   color: #fff;
+  font-weight: bold;
 }
 
 #faq .accordion .accordion-item .panel{

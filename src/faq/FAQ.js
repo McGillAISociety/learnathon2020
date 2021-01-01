@@ -19,6 +19,11 @@ class FAQ extends Component{
         interested in learning more about AI. </p>
         </AccordionItem>
 
+        <AccordionItem title = "Is this a virtual event?">
+        <p> Yup! This year, the conference will be taking place online. We look forward
+        to seeing your virtual backgrounds! </p>
+        </AccordionItem>
+
         <AccordionItem title = "I am new to AI. Can I still participate?">
         <p> Yup! All skill levels are welcome. More importantly, we aim to provide
         a condensed, fun, open, learning experience. </p>
