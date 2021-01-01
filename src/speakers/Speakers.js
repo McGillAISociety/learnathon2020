@@ -29,7 +29,7 @@ class Speakers extends Component {
                   className="speaker-animate"
                 >
                   <a className="speaker-links" href="https://www.ajungmoon.com/"
-                    target="_blank" rel="noopener">
+                    target="_blank" rel="noreferrer">
                   <img className=" speaker-pic" src= {Moon} alt = "Moon" />
                   <p className="speaker-name">AJung Moon</p></a>
                 </motion.div>
@@ -52,14 +52,14 @@ class Speakers extends Component {
                   className="speaker-animate"
                 >
                   <a className="speaker-links" href="http://www.davidrolnick.com/"
-                    target="_blank" rel="noopener">
+                    target="_blank" rel="noreferrer">
                   <img className=" speaker-pic" src= {Rolnick} alt = "Rolnick" />
                   <p className="speaker-name">David Rolnick</p></a>
                   </motion.div>
                   <p className="position-title"> ML &amp; Climate Change </p>
                   <p className="speaker-description">David Rolnick is an Assistant
                   Professor in the School of Computer Science at McGill University and
-                  at <a href="https://mila.quebec/" target="_blank" rel="noopener">Mila</a>.
+                  at <a href="https://mila.quebec/" target="_blank" rel="noreferrer">Mila</a>.
                   He also serves as co-founder and chair of Climate Change AI and scientific
                   co-director of Sustainability in the Digital Age. His research focuses on
                   deep learning theory and applying machine learning to climate change.
@@ -74,7 +74,7 @@ class Speakers extends Component {
                   className="speaker-animate"
                 >
                   <a className="speaker-links" href="https://margaritamayoralvilla.wordpress.com/margarita-mayoral-villa-march-2019/"
-                    target="_blank" rel="noopener">
+                    target="_blank" rel="noreferrer">
                   <img className=" speaker-pic" src= {Mayoral} alt = "Margarita Mayoral Villa" />
                   <p className="speaker-name">Margarita Mayoral Villa</p></a>
                   </motion.div>
@@ -96,7 +96,7 @@ class Speakers extends Component {
                   className="speaker-animate"
                 >
                   <a className="speaker-links" href="https://mcgillai.com"
-                    target="_blank" rel="noopener">
+                    target="_blank" rel="noreferrer">
                   <img className=" speaker-pic" src= {Charlie} alt = "CHarlie Filler" />
                   <p className="speaker-name">Sandi Mak</p></a>
                   </motion.div>
@@ -116,7 +116,7 @@ class Speakers extends Component {
                   className="speaker-animate"
                 >
                   <a className="speaker-links" href="https://williamleif.github.io/"
-                    target="_blank" rel="noopener">
+                    target="_blank" rel="noreferrer">
                   <img className=" speaker-pic" src= {Hamilton} alt = "Hamilton" />
                   <p className="speaker-name">William L. Hamilton</p></a>
                   </motion.div>

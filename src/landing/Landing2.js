@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import ParticlesBg  from "particles-bg";
-import Banner from './conference_banner.png';
-import WhiteBanner from './white_logo.png';
 import Monster from './mcgillai_monster.png';
 import Transparent from './learnathon_title_transparent.png';
+import './landing.css';
 
 class Landing2 extends Component {
 

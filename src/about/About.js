@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import styled from '@emotion/styled';
 import Title from '../Title.js';
 import monster from './char3.png';
 

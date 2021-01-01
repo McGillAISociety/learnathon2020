@@ -1,8 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import React, {Component} from 'react';
 import Footer from './footer/Footer';
-import Landing from './landing/Landing';
 import Landing2 from './landing/Landing2';
 import About from './about/About';
 import Speakers from './speakers/Speakers';

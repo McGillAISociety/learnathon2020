@@ -71,6 +71,7 @@ export default () => (
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
          <a
             aria-label="Contact Us"
+            alt="social-contact-us"
             href="mailto:mcgillaicontact@gmail.com"
            class='fa fa-at'
           />

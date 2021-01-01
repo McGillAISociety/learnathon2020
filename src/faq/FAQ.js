@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import styled from '@emotion/styled';
 import {Accordion, AccordionItem} from 'react-light-accordion';
 
 //import './schedule.css';

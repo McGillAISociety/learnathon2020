@@ -293,6 +293,10 @@ ul#nav li.current a { color: #8becff;
 
 #speakers .gallery {
   margin: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  border-radius: 2%;
+  background-image: radial-gradient(#ffa9a8, #ffc18e);
+
 }
 
 #speakers .gallery-cell{
@@ -313,7 +317,7 @@ ul#nav li.current a { color: #8becff;
 
 #speakers .speaker-description {
   font: 'opensans', sans-serif;
-  font-size: 0.8em;
+  font-size: 0.7em;
   color: #040404;
   margin-top:-8px;
 }
@@ -431,7 +435,7 @@ $blockLengths: 1, 2, 3;
 
 #schedule2 .scheduleContainer {
   display: grid;
-  grid-gap: 0.2rem;
+  grid-gap: 0.5rem;
   grid-template-rows:
     [tracks] auto
     [time-0945] 1fr
@@ -478,26 +482,37 @@ $blockLengths: 1, 2, 3;
 }
 
 #schedule2 .session{
-  padding: .5em;
-  border-radius:0.2em;
+  padding: 0.4em;
+  border-radius: 0.2em;
   font-size: 18px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
 
 #schedule2 .session-time,
-.session-track, .session-presenter {display: block;}
+#schedule2 .session-track, #schedule2 .session-presenter,
+#schedule2 .time-slot, #schedule2 .session-title {display: block;}
 
 #schedule2 .session-title{
   display: block;
-  color: #fff;
-  text-decoration-style: dotted;
+  text-decoration: underline;
+  font: 'opensans', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  color: #040404;
   margin:0;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 #schedule2 .time-slot{
   margin:auto;
   font-size: .75em;
-  font-weight: bold;
+  color: #040404;
+}
+#schedule2 .session-presenter{
+  font:'opensans', sans-serif;
+  font-size:.75em;
+  letter-spacing: 1.2px;
+  color: #2b2b2b;
+  margin:auto;
 }
 
 #schedule2 .track-slot{font-weight:bold;}

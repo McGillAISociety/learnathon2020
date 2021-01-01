@@ -1,8 +1,5 @@
 import React from 'react';
-import {css} from '@emotion/react';
 import styled from '@emotion/styled';
-import {motion} from 'framer-motion';
-
 
 const Title = styled('div')`
   font-family: 'opensans-bold', sans-serif;
@@ -18,7 +15,7 @@ const Title = styled('div')`
   padding-right: 0.2em;
   color: #fff;
   border-radius: 2%;
-  width: 70%;
+  width: 60%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -30,6 +27,6 @@ export default ({children, titleColor})=>(
   <React.Fragment>
 
     <Title titleColor = {titleColor}>{children}</Title>
-  
+
   </React.Fragment>
 )

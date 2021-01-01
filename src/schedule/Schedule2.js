@@ -26,13 +26,15 @@ class Schedule2 extends Component{
           </div>
 
           <h2 className="time-slot" style={{"grid-row": "time-1000"}}>10:00am</h2>
-          <div className="session session-2 track-all" style={{"grid-column":"track-1-start / track-3-end", "grid-row":"time-1000 / time-1100"}}>
+          <div className="session session-2 track-all" style={{"grid-column":"track-1-start / track-3-end", "grid-row":"time-1000 / time-1100", 'background-color':'#8becff'}}>
             <h3 className="session-title">Keynote Speaker</h3>
           </div>
 
           <h2 className="time-slot" style={{"grid-row": "time-1100"}}>11:00am</h2>
           <div className="session session-3 track-1" style={{"grid-column":"track-1-start", "grid-row":"time-1100"}}>
-            <h3 className="session-title">David Rolnick</h3>
+            <p className="session-title">Talk Title</p>
+            <p className="time-slot">11:00am - 12:00pm</p>
+            <p className="session-presenter">David Rolnick</p>
           </div>
           <div className="session session-3 track-2" style={{"grid-column":"track-2-start", "grid-row":"time-1100"}}>
             <h3 className="session-title">Sandi Mak</h3>
