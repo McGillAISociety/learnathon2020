@@ -3,6 +3,7 @@ import ParticlesBg  from "particles-bg";
 import Monster from './mcgillai_monster.png';
 import Transparent from './learnathon_title_transparent.png';
 import './landing.css';
+import logo from '../navigation/mais-logo.png';
 
 class Landing2 extends Component {
 
@@ -13,7 +14,7 @@ class Landing2 extends Component {
       <nav id="nav-wrap">
          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
 	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
-
+        <img className="nav-logo" src={logo} alt="mais logo"/>
          <ul id="nav" className="nav">
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
             <li><a className="smoothscroll" href="#about">About</a></li>

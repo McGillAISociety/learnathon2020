@@ -5,6 +5,7 @@ import Wrnch from './wrnch.png';
 import Microsoft from './microsoft.png';
 
 const LogoRow = styled('div')`
+
   display: flex;
   padding-bottom: 1%;
   max-height: 130px;
@@ -26,7 +27,6 @@ const LogoWrapper = styled('a')`
   display: flex;
   align-items: center;
   padding: 10px;
-  padding-top: 0;
 `;
 
 const LogoImage = styled('img')`
@@ -34,6 +34,7 @@ const LogoImage = styled('img')`
   width:auto;
   height:auto;
   text-align:center;
+  margin: 0 auto;
   max-height: 100%;
   object-fit: scale-down;
   -webkit-user-drag: none;

@@ -10,12 +10,19 @@ class Sponsors extends Component {
         <Title titleColor = "#8becff"> Sponsors </Title>
         <div className = "row">
           <div className ="column">
-            <p> A big thank you to our sponsors! </p>
-            <p> Interested in sponsoring us?</p>
+            <h2> Interested in sponsoring McGill AI?</h2>
+            <p>Reach out to <a href="mailto:mcgillaicontact@gmail.com" alt="VP External Email"
+              rel="noopener noreferrer"> Philip Tam, VP External</a> to
+              learn more about our sponsorship package! <br/>
+              This event aims to connect students and industry. We will be hosting a career
+              and sponsors will have the chance to give a talk or a workshop too. Come show
+              our attendees your company and the work you do. </p>
             <p> button will go here to email Philip </p>
           </div>
           <div className="column">
-            <SponsorLogos/>
+            <div className="logo-wrapper">
+              <SponsorLogos/>
+            </div>
           </div>
         </div>
       </section>

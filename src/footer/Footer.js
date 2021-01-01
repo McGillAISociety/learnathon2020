@@ -41,6 +41,7 @@ const footerLink = css`
 const SocialLinks = styled('div')`
   margin: auto;
   padding-bottom: 12px;
+  padding-top: 12px;
   align-items: center;
   text-align: center;
   justify-content: center;
@@ -73,6 +74,8 @@ export default () => (
     <CenterContainer>
 
       <CenterContent>
+        <p class='footer-text'>Still have questions? <br/>Send us an email
+        at <a href="mailto:mcgillaicontact@gmail.com" alt="mcgill ai email">mcgillaicontact@gmail.com</a>!</p>
 
         <SocialLinks>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
@@ -81,13 +84,6 @@ export default () => (
             alt="social-contact-us"
             href="mailto:mcgillaicontact@gmail.com"
            class='fa fa-at'
-          />
-          <a
-            aria-label="Website"
-            href="https://www.mcgillai.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-             class='fa fa-map-marker'
           />
           <a
             aria-label="Facebook"
@@ -119,7 +115,11 @@ export default () => (
           />
            </SocialLinks>
           <br/>
-        McGill Artificial Intelligence Society <br/> &copy; {year}
+        <a href="https://www.mcgillai.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="link-site">
+        McGill Artificial Intelligence Society</a><br/> &copy; {year}
       </CenterContent>
     </CenterContainer>
   </FooterContainer>
