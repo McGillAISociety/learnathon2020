@@ -7,7 +7,7 @@ import Speakers from './speakers/Speakers';
 import Schedule2 from './schedule/Schedule2';
 import Sponsors from './sponsors/Sponsors';
 import FAQ from './faq/FAQ';
-
+import Fair from './fair/Fair';
 
 class App extends Component {
   render(){
@@ -17,6 +17,7 @@ class App extends Component {
         <About/>
         <Speakers/>
         <Schedule2/>
+        <Fair/>
         <FAQ/>
         <Sponsors/>
         <Footer/>

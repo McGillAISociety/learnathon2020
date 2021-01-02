@@ -3,9 +3,10 @@ import styled from '@emotion/styled';
 
 import Wrnch from './wrnch.png';
 import Microsoft from './microsoft.png';
+import Button from '../Button.js';
 
 const LogoRow = styled('div')`
-
+  text-align:center;
   display: flex;
   padding-bottom: 1%;
   max-height: 130px;
@@ -48,6 +49,7 @@ const Logo = ({ alt, src, href }) => (
 
 export default () => (
   <React.Fragment>
+  
     <LogoRow>
 
       <Logo

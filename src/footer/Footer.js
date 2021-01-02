@@ -45,7 +45,7 @@ const SocialLinks = styled('div')`
   align-items: center;
   text-align: center;
   justify-content: center;
-  background-color:#a1a1a1;
+  background-color:#808080;
   border-radius: 2%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
   display: flex;

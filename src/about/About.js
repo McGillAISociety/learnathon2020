@@ -9,7 +9,7 @@ class About extends Component {
 
           <div className = "background-monster">
           <img className = "background-monster" src={monster} alt="monster"/>
-          <Title titleColor = "#ffc18e"> An Undergraduate AI Conference </Title>
+          <Title titleColor = "#ffc18e"> An Undergrad AI Conference </Title>
           <p> McGill AI is excited to announce our first ever undergraduate AI
           conference: the McGill AI Learnathon! Kick off your winter semester
           with a fun, AI-filled day of workshops, talks, panels, and networking.
@@ -23,8 +23,8 @@ class About extends Component {
             research talks, hands-on workshops, and sponsor presentations</div>
             <div class="column">
              Access to our panels, on topics such as securing research as an
-            undergraduate, and working on AI</div>
-            <div class="column"> The option to submit an ML project to our poster fair </div>
+            undergraduate and working on AI</div>
+            <div class="column">The option to submit an ML project to our <a href="#fair">poster fair</a></div>
             <div class="column"> Access to our career fair </div>
           </div>
           Come and listen to some of the most acclaimed researchers in the

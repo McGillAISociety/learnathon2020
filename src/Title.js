@@ -16,6 +16,8 @@ const Title = styled('div')`
   color: #fff;
   border-radius: 2%;
   width: 60%;
+  min-width: 30%;
+
   display: block;
   margin-left: auto;
   margin-right: auto;
