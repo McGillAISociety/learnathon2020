@@ -95,31 +95,28 @@
     $('#Rho').delay(3*(time+50)).fadeIn(time);
     $('#R-Z').delay(4*(time+50)).fadeIn(time);
     $('#se').delay(5*(time+50)).fadeIn(time)
-    $('#Cong').delay(6*(time+50)).fadeIn(time); 
+    $('#Cong').delay(6*(time+50)).fadeIn(time);
     $('.banner-text').show();
-    $('.social').delay(17000).fadeIn(800); 
-    $('.scrolldown').delay(17000).fadeIn(800); 
+    $('.social').delay(17000).fadeIn(800);
+    $('.scrolldown').delay(17000).fadeIn(800);
 
   });
 
-   
+
    $(window).on('scroll', function() {
 
 		var h = $('header').height();
 		var y = $(window).scrollTop();
     var nav = $('#nav-wrap');
 
-	   if ( (y >= 50) && (y < h) && ($(window).outerWidth() > 768 ) ) {
-	      nav.fadeOut('fast');
-	   }
-      else {
+
          if (y < h*.20) {
             nav.removeClass('opaque').fadeIn('fast');
          }
          else {
             nav.addClass('opaque').fadeIn('fast');
          }
-      }
+      
 
 	});
 
@@ -187,7 +184,7 @@
                $('#image-loader').fadeOut();
                $('#message-warning').hide();
                $('#contactForm').fadeOut();
-               $('#message-success').fadeIn();   
+               $('#message-success').fadeIn();
             }
             // There was an error
             else {
@@ -204,11 +201,3 @@
 
 
 });
-
-
-
-
-
-
-
-

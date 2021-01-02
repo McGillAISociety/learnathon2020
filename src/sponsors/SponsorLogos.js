@@ -3,7 +3,6 @@ import styled from '@emotion/styled';
 
 import Wrnch from './wrnch.png';
 import Microsoft from './microsoft.png';
-import Button from '../Button.js';
 
 const LogoRow = styled('div')`
   text-align:center;
@@ -49,7 +48,7 @@ const Logo = ({ alt, src, href }) => (
 
 export default () => (
   <React.Fragment>
-  
+
     <LogoRow>
 
       <Logo

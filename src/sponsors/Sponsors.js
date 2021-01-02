@@ -18,7 +18,7 @@ class Sponsors extends Component {
           </div>
         </div>
           <div className ="column">
-            <h2> Interested in sponsoring McGill AI?</h2>
+            <h2> Interested in sponsoring?</h2>
             <p>Click below to
               learn more about our sponsorship package! <br/>
               This event aims to connect students and industry. We will be hosting a career
