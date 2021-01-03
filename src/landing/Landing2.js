@@ -36,8 +36,8 @@ class Landing2 extends Component {
       <div class="landing-wrapper">
         <div class="item">
           <h1> Coming to you 6 Feb 2021! </h1>
-          <Button color="#040404" bgcolor="#8becff" fontsize="1.4em" href="https://icatcare.org/advice/thinking-of-getting-a-cat/" target="_blank" rel="noopener noreferrer" alt="cat filler">
-              Apply now! <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></Button>
+          <Button color="#040404" bgcolor="#8becff" fontsize="1.4em" href="https://docs.google.com/forms/d/e/1FAIpQLSdhmDi8LFjC0sfGMT3oex00XKuhtiS6vi6j1WT4wjwWQiWzMw/viewform" target="_blank" rel="noopener noreferrer" alt="cat filler">
+              RSVP now! <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></Button>
         </div>
         <div class="item">
           <h3> New year, new you! <br/>Start 2021 with a blast and

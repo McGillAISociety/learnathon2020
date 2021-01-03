@@ -27,8 +27,8 @@ class About extends Component {
             <div class="column">The option to submit an ML project to our <a href="#fair">poster fair</a></div>
             <div class="column"> Access to our career fair </div>
           </div>
-          Come and listen to some of the most acclaimed researchers in the
-          diverse field of AI!
+          Come and listen to some awesome researchers in the
+          field of AI!
           </p>
           </div>
       </section>

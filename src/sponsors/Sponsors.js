@@ -19,13 +19,12 @@ class Sponsors extends Component {
         </div>
           <div className ="column">
             <h2> Interested in sponsoring?</h2>
-            <p>Click below to
-              learn more about our sponsorship package! <br/>
+            <p>Click below to contact us about sponsorship! <br/>
               This event aims to connect students and industry. We will be hosting a career
               fair and sponsors will have the chance to give a talk or a workshop too. Come show
               our attendees your company and the work you do! </p>
               <Button color="#fff" bgcolor="#808080" fontsize="15px"
-                href="mailto:kido@cats.com" alt="kido email in place of Vp external">
+                href="mailto:mcgillaicontact@gmail.com" alt="contact mcgill ai">
                 Sponsor McGill AI <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></Button>
           </div>
 

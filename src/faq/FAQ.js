@@ -20,17 +20,17 @@ class FAQ extends Component{
         </AccordionItem>
 
         <AccordionItem title = "Is this a virtual event?">
-        <p> Yup! This year, the conference will be taking place online. We look forward
+        <p> Yes. This year, the conference will be taking place online. We look forward
         to seeing your virtual backgrounds! </p>
         </AccordionItem>
 
         <AccordionItem title = "I am new to AI. Can I still participate?">
-        <p> Yup! All skill levels are welcome. More importantly, we aim to provide
+        <p> Yes. All skill levels are welcome. More importantly, we aim to provide
         a condensed, fun, open, learning experience. </p>
         </AccordionItem>
 
         <AccordionItem title = "Does it cost anything to take part?">
-        <p> Nope! The event is completely free of charge. </p>
+        <p> Nope. The event is completely free of charge. </p>
         </AccordionItem>
 
         <AccordionItem title = "Do I have to learn something in advance?">
