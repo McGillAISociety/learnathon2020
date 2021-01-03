@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import styled from '@emotion/styled';
 import {Accordion, AccordionItem} from 'react-light-accordion';
 
 //import './schedule.css';
@@ -16,8 +15,13 @@ class FAQ extends Component{
       <div>
       <Accordion atomic ={true}>
         <AccordionItem title = "Can I register for this conference?">
-        <p> Yes! Anyone can participate. The event if open to everyone
+        <p> Yes! Anyone can participate. The event is open to everyone
         interested in learning more about AI. </p>
+        </AccordionItem>
+
+        <AccordionItem title = "Is this a virtual event?">
+        <p> Yup! This year, the conference will be taking place online. We look forward
+        to seeing your virtual backgrounds! </p>
         </AccordionItem>
 
         <AccordionItem title = "I am new to AI. Can I still participate?">

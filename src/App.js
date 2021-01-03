@@ -1,15 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
 import React, {Component} from 'react';
 import Footer from './footer/Footer';
-import Landing from './landing/Landing';
 import Landing2 from './landing/Landing2';
 import About from './about/About';
 import Speakers from './speakers/Speakers';
-import Schedule from './schedule/Schedule';
+import Schedule2 from './schedule/Schedule2';
 import Sponsors from './sponsors/Sponsors';
 import FAQ from './faq/FAQ';
-
+import Fair from './fair/Fair';
 
 class App extends Component {
   render(){
@@ -18,7 +16,8 @@ class App extends Component {
         <Landing2/>
         <About/>
         <Speakers/>
-        <Schedule/>
+        <Schedule2/>
+        <Fair/>
         <FAQ/>
         <Sponsors/>
         <Footer/>

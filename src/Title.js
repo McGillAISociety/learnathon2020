@@ -1,5 +1,4 @@
 import React from 'react';
-import {css} from '@emotion/react';
 import styled from '@emotion/styled';
 
 const Title = styled('div')`
@@ -16,7 +15,9 @@ const Title = styled('div')`
   padding-right: 0.2em;
   color: #fff;
   border-radius: 2%;
-  width: 70%;
+  width: 60%;
+  min-width: 30%;
+
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -26,6 +27,8 @@ const Title = styled('div')`
 
 export default ({children, titleColor})=>(
   <React.Fragment>
+
     <Title titleColor = {titleColor}>{children}</Title>
+
   </React.Fragment>
 )
