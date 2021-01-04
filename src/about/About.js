@@ -16,7 +16,7 @@ class About extends Component {
           The conference is intended for all high school, cégep, and undergraduates
           interested in AI; admission is completely free.
           <br/>
-          Registration for the conference includes:
+          <p style={{"font-size":"15px"}}>Registration for the conference includes:</p>
           <div class="wrapper">
             <div class="layer-slotA" style={{"grid-row":"layer-1"}}>
             <div class="sessionA sessionA-1 track-1" style={{"grid-column":"track-1-start", "grid-row":"layer-1"}}>

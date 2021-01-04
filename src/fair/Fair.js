@@ -25,7 +25,7 @@ class Fair extends Component{
               research work under a professor, a final project for a course, or
               a side-project you're particularly proud of.
               <br/>
-              This event will be run on gather.town. <br/>Application required by DEADLINE. </p>
+              This event will be run on gather.town. <br/>Application required by January 25, 2021. </p>
               <img src={monster} alt="monster dude" className="monster"/>
             </div>
 

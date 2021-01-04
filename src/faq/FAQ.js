@@ -18,18 +18,17 @@ class FAQ extends Component{
         <p> Yes! Anyone can participate. The event is open to everyone
         interested in learning more about AI. We strongly encourage applicants
          who identify as Indigenous, Black, Latinx, women/non-binary, queer, disabled, or
-         otherwise underrepresented groups in tech to apply.
-         Non-McGill students and graduate students will not be considered.</p>
+         otherwise underrepresented in tech to attend.</p>
         </AccordionItem>
 
         <AccordionItem title = "Is this a virtual event?">
         <p> Yes. This year, the conference will be taking place online. We look forward
-        to seeing your virtual backgrounds! <br/> We will be using Discord, Zoom and gather.town. </p>
+        to seeing your virtual backgrounds! In terms of platforms, we will be using Discord, Zoom, and gather.town. </p>
         </AccordionItem>
 
         <AccordionItem title = "I am new to AI. Can I still participate?">
-        <p> Yes. All skill levels are welcome. More importantly, we aim to provide
-        a condensed, fun, open, learning experience. </p>
+        <p> Yes. All skill levels are welcome. We aim to provide
+        a condensed, fun, and welcoming learning experience. </p>
         </AccordionItem>
 
         <AccordionItem title = "Does it cost anything to take part?">
@@ -37,7 +36,7 @@ class FAQ extends Component{
         </AccordionItem>
 
         <AccordionItem title = "Do I have to learn something in advance?">
-        <p> Some mathematical background is recommended but not necessary!
+        <p> Some mathematical background is recommended but not necessary.
         We will be having a talk presenting the important mathematical topics used in AI.</p>
         </AccordionItem>
 
