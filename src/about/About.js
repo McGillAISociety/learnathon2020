@@ -32,8 +32,7 @@ class About extends Component {
             </div>
           </div>
           <br/>
-          Come and listen to some of the most acclaimed researchers in the
-          diverse field of AI!
+          Come and listen to some awesome researchers in the field of AI!
           </p>
           </div>
       </section>
