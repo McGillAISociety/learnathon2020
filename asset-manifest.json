@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.950bd3ee.chunk.css",
+    "main.js": "/static/js/main.0673902b.chunk.js",
+    "main.js.map": "/static/js/main.0673902b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2183b4fe.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2183b4fe.js.map",
+    "static/js/2.1f3d4544.chunk.js": "/static/js/2.1f3d4544.chunk.js",
+    "static/js/2.1f3d4544.chunk.js.map": "/static/js/2.1f3d4544.chunk.js.map",
+    "static/js/3.cfa15746.chunk.js": "/static/js/3.cfa15746.chunk.js",
+    "static/js/3.cfa15746.chunk.js.map": "/static/js/3.cfa15746.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.950bd3ee.chunk.css.map": "/static/css/main.950bd3ee.chunk.css.map",
+    "static/js/2.1f3d4544.chunk.js.LICENSE.txt": "/static/js/2.1f3d4544.chunk.js.LICENSE.txt",
+    "static/media/AJung Moon.87c90ba4.jpg": "/static/media/AJung Moon.87c90ba4.jpg",
+    "static/media/David Rolnick.284af108.jpg": "/static/media/David Rolnick.284af108.jpg",
+    "static/media/William Hamilton.27094941.jpg": "/static/media/William Hamilton.27094941.jpg",
+    "static/media/char1.f4252657.png": "/static/media/char1.f4252657.png",
+    "static/media/char2-large.e92596a1.png": "/static/media/char2-large.e92596a1.png",
+    "static/media/char3.5bffe05f.png": "/static/media/char3.5bffe05f.png",
+    "static/media/char4.fe50d3fb.png": "/static/media/char4.fe50d3fb.png",
+    "static/media/char5.75f0ef1a.png": "/static/media/char5.75f0ef1a.png",
+    "static/media/char5.920fce81.png": "/static/media/char5.920fce81.png",
+    "static/media/charlie.21a664d0.jpg": "/static/media/charlie.21a664d0.jpg",
+    "static/media/learnathon_title_transparent.4ef87453.png": "/static/media/learnathon_title_transparent.4ef87453.png",
+    "static/media/mais-logo.dbf245d3.png": "/static/media/mais-logo.dbf245d3.png",
+    "static/media/mak-fillin.67482649.png": "/static/media/mak-fillin.67482649.png",
+    "static/media/mcgillai_monster.0ebe15a0.png": "/static/media/mcgillai_monster.0ebe15a0.png",
+    "static/media/microsoft.bd2ff938.png": "/static/media/microsoft.bd2ff938.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2183b4fe.js",
+    "static/js/2.1f3d4544.chunk.js",
+    "static/css/main.950bd3ee.chunk.css",
+    "static/js/main.0673902b.chunk.js"
+  ]
+}
