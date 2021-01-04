@@ -23,6 +23,10 @@ const Title = styled('div')`
   margin-right: auto;
   margin-top: 0.3em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+
+  @media screen and (max-width: 700px){
+    font-size: 1.5em;
+  }
 `;
 
 export default ({children, titleColor})=>(
