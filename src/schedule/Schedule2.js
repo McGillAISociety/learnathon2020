@@ -14,10 +14,11 @@ class Schedule2 extends Component{
           
 
           <h2 className="time-slot" style={{"grid-row": "time-0945"}}>9:45am</h2>
-          <div className="session session-1 track-all" style={{"grid-column":"track-1-start / track-3-end", "grid-row":"time-0945 / time-1000"}}>
-            <h3 className="session-title">Opening Session</h3>
-
-
+          <div className="session session-1 track-all" style={{
+            "grid-column":"track-1-start / track-3-end",
+            "grid-row":"time-0945 / time-1000"}}
+          >
+            <h3 className="session-title">Opening Ceremony</h3>
           </div>
 
           <h2 className="time-slot" style={{"grid-row": "time-1000"}}>10:00am</h2>
@@ -27,9 +28,7 @@ class Schedule2 extends Component{
 
           <h2 className="time-slot" style={{"grid-row": "time-1100"}}>11:00am</h2>
           <div className="session session-3 track-1" style={{"grid-column":"track-1-start", "grid-row":"time-1100"}}>
-            <p className="session-title">Talk Title</p>
-            <p className="time-slot">11:00am - 12:00pm</p>
-            <p className="session-presenter">David Rolnick</p>
+            <h3 className="session-title">Prof. David Rolnick</h3>
           </div>
           <div className="session session-3 track-2" style={{"grid-column":"track-2-start", "grid-row":"time-1100"}}>
             <h3 className="session-title">Sandi Mak</h3>
@@ -45,7 +44,7 @@ class Schedule2 extends Component{
 
           <h2 className="time-slot" style={{"grid-row": "time-1300"}}>1:00pm</h2>
           <div className="session session-5 track-1" style={{"grid-column":"track-1-start", "grid-row":"time-1300"}}>
-            <h3 className="session-title">AJung Moon</h3>
+            <h3 className="session-title">Prof. AJung Moon</h3>
           </div>
           <div className="session session-5 track-2" style={{"grid-column":"track-2-start", "grid-row":"time-1300"}}>
             <h3 className="session-title">TBD</h3>
@@ -57,7 +56,7 @@ class Schedule2 extends Component{
 
           <h2 className="time-slot" style={{"grid-row": "time-1400"}}>2:00pm</h2>
           <div className="session session-6 track-1" style={{"grid-column":"track-1-start", "grid-row":"time-1400"}}>
-            <h3 className="session-title">William Hamilton</h3>
+            <h3 className="session-title">Prof. William Hamilton</h3>
           </div>
           <div className="session session-6 track-2" style={{"grid-column":"track-2-start", "grid-row":"time-1400"}}>
             <h3 className="session-title">Margarita Mayoral Villa</h3>

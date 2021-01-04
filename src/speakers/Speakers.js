@@ -31,7 +31,7 @@ class Speakers extends Component {
                   <a className="speaker-links" href="https://www.ajungmoon.com/"
                     target="_blank" rel="noreferrer">
                   <img className=" speaker-pic" src= {Moon} alt = "Moon" />
-                  <p className="speaker-name">AJung Moon</p></a>
+                  <p className="speaker-name">Prof. AJung Moon</p></a>
                 </motion.div>
                 <p className="position-title"> Robots &amp; AI Ethics</p>
                   <p className="speaker-description">AJung Moon is an experimental roboticist.
@@ -54,7 +54,7 @@ class Speakers extends Component {
                   <a className="speaker-links" href="http://www.davidrolnick.com/"
                     target="_blank" rel="noreferrer">
                   <img className=" speaker-pic" src= {Rolnick} alt = "Rolnick" />
-                  <p className="speaker-name">David Rolnick</p></a>
+                  <p className="speaker-name">Prof. David Rolnick</p></a>
                   </motion.div>
                   <p className="position-title"> ML &amp; Climate Change </p>
                   <p className="speaker-description">David Rolnick is an Assistant
@@ -118,7 +118,7 @@ class Speakers extends Component {
                   <a className="speaker-links" href="https://williamleif.github.io/"
                     target="_blank" rel="noreferrer">
                   <img className=" speaker-pic" src= {Hamilton} alt = "Hamilton" />
-                  <p className="speaker-name">William L. Hamilton</p></a>
+                  <p className="speaker-name">Prof. William L. Hamilton</p></a>
                   </motion.div>
                   <p className="position-title"> Graph Representation Learning</p>
                   <p className="speaker-description">
