@@ -16,12 +16,15 @@ class FAQ extends Component{
       <Accordion atomic ={true}>
         <AccordionItem title = "Can I register for this conference?">
         <p> Yes! Anyone can participate. The event is open to everyone
-        interested in learning more about AI. </p>
+        interested in learning more about AI. We strongly encourage applicants
+         who identify as Indigenous, Black, Latinx, women/non-binary, queer, disabled, or
+         otherwise underrepresented groups in tech to apply.
+         Non-McGill students and graduate students will not be considered.</p>
         </AccordionItem>
 
         <AccordionItem title = "Is this a virtual event?">
         <p> Yes. This year, the conference will be taking place online. We look forward
-        to seeing your virtual backgrounds! </p>
+        to seeing your virtual backgrounds! <br/> We will be using Discord, Zoom and gather.town. </p>
         </AccordionItem>
 
         <AccordionItem title = "I am new to AI. Can I still participate?">

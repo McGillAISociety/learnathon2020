@@ -42,12 +42,14 @@ header .banner-text{
 }
 header h1 {
   color: #fff;
-  font: 35px 'opensans-bold', sans-serif;
+  font: 28px 'opensans-bold', sans-serif;
   font-weight: bolder;
   text-transform: uppercase;
   letter-spacing: 2px;
   background-color: rgba(255, 169, 168, 0.8);
   border-radius: 0.2rem;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 
@@ -384,7 +386,7 @@ ul#nav li.current a { color: #8becff;
 
 #speakers .gallery-cell{
   width: 32%;
-  height: 500px;
+  height: 550px;
   margin-right: 10px;
   background: #8becff;
   border-radius:2%;
@@ -408,8 +410,10 @@ ul#nav li.current a { color: #8becff;
   font: 'opensans', sans-serif;
   font-size: 0.8em;
   color: #040404;
-  margin-top:-8px;
+  margin-top:-10px;
   padding: 2%;
+  padding-bottom: 2px;
+
 }
 
 

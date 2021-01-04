@@ -6,6 +6,7 @@ import Moon from './AJung Moon.jpg';
 import Mayoral from './Margarita Mayoral Villa.jpg';
 import {motion} from 'framer-motion';
 import monster from './char2-large.png';
+import MakFill from './mak-fillin.png';
 
 import Title from '../Title.js';
 
@@ -97,12 +98,17 @@ class Speakers extends Component {
                 >
                   <a className="speaker-links" href="https://mcgillai.com"
                     target="_blank" rel="noreferrer">
-                  <img className=" speaker-pic" src= {Charlie} alt = "CHarlie Filler" />
+                  <img className=" speaker-pic" src= {MakFill} alt = "Sandi Mak Filler" />
                   <p className="speaker-name">Sandi Mak</p></a>
                   </motion.div>
                   <p className="position-title"> Maths in AI</p>
                   <p className="speaker-description">
-                    Sandi Mak will be leading a session on the importance of mathematics in AI.
+                    Sandi Mak is a teacher and former
+                    department coordinator in the Maths Department at Montreal's Vanier College.
+                    She previously organized and taught a machine learning seminar, accessible to Cegep students,
+                    and is currently involved in a project at PIA (Pôle Montréalais d’enseignement supérieur en intelligence artificielle)
+                    which aims to use AI to match the skills sought by AI industry employers with post-secondary courses and programs.
+
 
                   </p>
 

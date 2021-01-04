@@ -35,7 +35,7 @@ class Landing2 extends Component {
       </div>
       <div class="landing-wrapper">
         <div class="item">
-          <h1> Coming to you 6 Feb 2021! </h1>
+          <h1> Coming to you: <br/> 9:45am-6pm ET <br/> 6 Feb 2021! </h1>
           <Button color="#040404" bgcolor="#8becff" fontsize="1.4em" href="https://docs.google.com/forms/d/e/1FAIpQLSdhmDi8LFjC0sfGMT3oex00XKuhtiS6vi6j1WT4wjwWQiWzMw/viewform" target="_blank" rel="noopener noreferrer" alt="cat filler">
               RSVP now! <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></Button>
         </div>
