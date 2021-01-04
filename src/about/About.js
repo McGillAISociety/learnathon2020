@@ -18,15 +18,20 @@ class About extends Component {
           <br/>
           Registration for the conference includes:
           <div class="wrapper">
-            <div class="column">
+            <div class="layer-slotA" style={{"grid-row":"layer-1"}}>
+            <div class="sessionA sessionA-1 track-1" style={{"grid-column":"track-1-start", "grid-row":"layer-1"}}>
               Access to our day-long program, consisting of 3 tracks of
             research talks, hands-on workshops, and sponsor presentations</div>
-            <div class="column">
+            <div class="sessionA sessionA-1 track-2" style={{"grid-column":"track-2-start", "grid-row":"layer-1"}}>
              Access to our panels, on topics such as securing research as an
             undergraduate and working on AI</div>
-            <div class="column">The option to submit an ML project to our <a href="#fair">poster fair</a></div>
-            <div class="column"> Access to our career fair </div>
+            </div>
+            <div class="layer-slotA" style={{"grid-row":"layer-2"}}>
+            <div class="sessionA sessionA-2 track-1" style={{"grid-column":"track-1-start", "grid-row":"layer-2"}}>The option to submit an ML project to our <a href="#fair">poster fair</a></div>
+            <div class="sessionA sessionA-2 track-2" style={{"grid-column":"track-2-start", "grid-row":"layer-2"}}> Access to our career fair </div>
+            </div>
           </div>
+          <br/>
           Come and listen to some of the most acclaimed researchers in the
           diverse field of AI!
           </p>

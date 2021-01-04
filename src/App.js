@@ -16,8 +16,9 @@ class App extends Component {
         <Landing2/>
         <About/>
         <Speakers/>
-        <Schedule2/>
         <Fair/>
+        <Schedule2/>
+
         <FAQ/>
         <Sponsors/>
         <Footer/>
