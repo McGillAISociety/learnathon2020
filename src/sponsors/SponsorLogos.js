@@ -3,13 +3,14 @@ import styled from '@emotion/styled';
 
 import Wrnch from './wrnch.png';
 import Microsoft from './microsoft.png';
+import Intact from './Intactlab.png';
 
 const LogoRow = styled('div')`
   text-align:center;
   display: flex;
   padding-bottom: 1%;
   max-height: 130px;
-  @media screen and (min-width: 480px) {
+  @media screen and (min-width: 700px) {
     padding-bottom: 25px;
   }
   @media screen and (min-width: 1024px) {
@@ -56,14 +57,20 @@ export default () => (
         src={Microsoft}
         href="https://careers.microsoft.com/students/us/en/"
       />
-    </LogoRow>
-    <LogoRow>
+
       <Logo
         alt="Wrnch"
         src={Wrnch}
         href="https://wrnch.ai/careers/"
       />
-    </LogoRow>
+      </LogoRow>
+      <LogoRow>
+    <Logo
+      alt="IntactLab"
+      src={Intact}
+      href="https://careers.intact.ca/ca/en/c/intact-lab-jobs?s=1"
+    />
+  </LogoRow>
 
 
   </React.Fragment>

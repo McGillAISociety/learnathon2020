@@ -85,7 +85,6 @@
     $('.svg-content').hide();
     $('.social').hide();
     $('.banner-text').hide();
-    $('.scrolldown').hide();
 
     $('#R').fadeIn(time);
     $('#right').delay(time+50).fadeIn(time);
@@ -98,7 +97,6 @@
     $('#Cong').delay(6*(time+50)).fadeIn(time);
     $('.banner-text').show();
     $('.social').delay(17000).fadeIn(800);
-    $('.scrolldown').delay(17000).fadeIn(800);
 
   });
 
@@ -116,7 +114,7 @@
          else {
             nav.addClass('opaque').fadeIn('fast');
          }
-      
+
 
 	});
 

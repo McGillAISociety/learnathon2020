@@ -7,6 +7,7 @@ import Mayoral from './Margarita Mayoral Villa.jpg';
 import {motion} from 'framer-motion';
 import monster from './char2-large.png';
 import MakFill from './mak-fillin.png';
+import Mak from './Sandi Mak.jpg';
 
 import Title from '../Title.js';
 
@@ -98,7 +99,7 @@ class Speakers extends Component {
                 >
                   <a className="speaker-links" href="https://mcgillai.com"
                     target="_blank" rel="noreferrer">
-                  <img className=" speaker-pic" src= {MakFill} alt = "Sandi Mak Filler" />
+                  <img className=" speaker-pic" src= {Mak} alt = "Sandi Mak Filler" />
                   <p className="speaker-name">Sandi Mak</p></a>
                   </motion.div>
                   <p className="position-title"> Maths in AI</p>
