@@ -33,6 +33,7 @@ header .banner {
   width: 70%;
   padding-bottom: 20px;
   padding-top: 30px;
+  margin-top:-15px;
   text-align: center;
 }
 header .banner-text{
