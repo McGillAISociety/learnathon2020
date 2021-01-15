@@ -11,7 +11,7 @@ class Schedule2 extends Component{
         <div className = "main-content">
         <Title titleColor= "#ffc18e"> Schedule </Title>
         <div className="scheduleContainer">
-          
+
 
           <h2 className="time-slot" style={{"grid-row": "time-0945"}}>9:45am</h2>
           <div className="session session-1 track-all" style={{
@@ -23,7 +23,7 @@ class Schedule2 extends Component{
 
           <h2 className="time-slot" style={{"grid-row": "time-1000"}}>10:00am</h2>
           <div className="session session-2 track-all" style={{"grid-column":"track-1-start / track-3-end", "grid-row":"time-1000 / time-1100", 'background-color':'#8becff'}}>
-            <h3 className="session-title">Keynote Speaker</h3>
+            <h3 className="session-title">Keynote: Pablo Castro</h3>
           </div>
 
           <h2 className="time-slot" style={{"grid-row": "time-1100"}}>11:00am</h2>
@@ -34,7 +34,7 @@ class Schedule2 extends Component{
             <h3 className="session-title">Sandi Mak</h3>
           </div>
           <div className="session session-3 track-3" style={{"grid-column":"track-3-start", "grid-row":"time-1100"}}>
-            <h3 className="session-title">Microsoft</h3>
+            <h3 className="session-title">TBD</h3>
           </div>
 
           <h2 className="time-slot" style={{"grid-row": "time-1200"}}>12:00pm</h2>
@@ -62,7 +62,7 @@ class Schedule2 extends Component{
             <h3 className="session-title">Margarita Mayoral Villa</h3>
           </div>
           <div className="session session-6 track-3" style={{"grid-column":"track-3-start", "grid-row":"time-1400"}}>
-            <h3 className="session-title">TBD</h3>
+            <h3 className="session-title">Microsoft</h3>
           </div>
 
           <h2 className="time-slot" style={{"grid-row": "time-1500"}}>3:00pm</h2>

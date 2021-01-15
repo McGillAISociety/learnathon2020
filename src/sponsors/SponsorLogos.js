@@ -4,6 +4,7 @@ import styled from '@emotion/styled';
 import Wrnch from './wrnch.png';
 import Microsoft from './microsoft.png';
 import Intact from './Intactlab.png';
+import SqrPnt from './squarepoint.png';
 
 const LogoRow = styled('div')`
   text-align:center;
@@ -69,6 +70,11 @@ export default () => (
       alt="IntactLab"
       src={Intact}
       href="https://careers.intact.ca/ca/en/c/intact-lab-jobs?s=1"
+    />
+    <Logo
+      alt="Square Point Capital"
+      src={SqrPnt}
+      href="https://www.squarepoint-capital.com/"
     />
   </LogoRow>
 
