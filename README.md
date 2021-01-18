@@ -47,5 +47,5 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ### Deployment
 
 Deployment is a little finnicky.
-
+(Make sure you've run `yarn add gh-pages` before this!) 
 First, run `yarn run deploy` in the root directory of the repository. This will create an optimized build of the site and push it to the remote `gh-pages` branch. For some reason, this also overwrites the Custom domain we have set for this project. You'll then need to go to this project's [Settings page](https://github.com/McGillAISociety/mais21-ConferenceSite/settings), scroll to the Github pages section, and fill in the `Custom domain` text box (which is now empty) with `mcgillailearn.com`. Do NOT prepend `mcgillailearn.com` with `www.` or `https://`. Your new site should now be deployed!
