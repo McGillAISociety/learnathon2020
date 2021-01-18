@@ -8,6 +8,7 @@ import {motion} from 'framer-motion';
 import monster from './char2-large.png';
 import MakFill from './mak-fillin.png';
 import Mak from './Sandi Mak.jpg';
+import Castro from './PabloCastroSquare.png';
 
 import Title from '../Title.js';
 
@@ -109,6 +110,31 @@ class Speakers extends Component {
                     She previously organized and taught a machine learning seminar, accessible to Cegep students,
                     and is currently involved in a project at PIA (Pôle Montréalais d’enseignement supérieur en intelligence artificielle)
                     which aims to use AI to match the skills sought by AI industry employers with post-secondary courses and programs.
+
+
+                  </p>
+
+                </div>
+
+                <div class="gallery-cell">
+                <motion.div
+                  initial={{scale: 1}}
+                  whileHover={{scale: 1.05}}
+                  className="speaker-animate"
+                >
+                  <a className="speaker-links" href="https://www.linkedin.com/in/pablo-samuel-castro-2113641b/?originalSubdomain=ca"
+                    target="_blank" rel="noreferrer">
+                  <img className=" speaker-pic" src= {Castro} alt = "Pablo Castro" />
+                  <p className="speaker-name">Pablo Samuel Castro</p></a>
+                  </motion.div>
+                  <p className="position-title">Google Brain</p>
+                  <p className="speaker-description">
+                    Pablo S. Castro moved from Quito, Ecuador to Montreal to study at
+                    McGill University, where he obtained his Bachelor's, Master's, and then his PhD
+                    on Reinforcement Learning. He is currently working at Google Brain as a Software
+                    Developer while focusing on fundamental Reinforcement Learning research. Besides
+                    being a great researcher, Pablo is also a great musician! He never misses an
+                    opportunity to put music and his research together.
 
 
                   </p>
