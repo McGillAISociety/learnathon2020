@@ -233,7 +233,7 @@ ul#nav li.current a { color: #8becff;
   right: 5%;
 }
 
-@media screen and min-width(700px){
+@media screen and (min-width: 700px){
   #about .wrapperA{
     display: grid;
     grid-gap:.5rem;
@@ -241,7 +241,11 @@ ul#nav li.current a { color: #8becff;
       [tracks] auto
       [layer-1] 1fr
       [layer-2] 1fr;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns:
+      [layers] 1rem
+      [track-1-start] 1fr
+      [track-1-end track-2-start] 1fr
+      [track-2-end];
   }
 }
 
@@ -265,6 +269,7 @@ ul#nav li.current a { color: #8becff;
     #about .sessionA{margin:0;}
   }
 }
+
 
 #about .sessionA{
   padding-top:auto;
@@ -523,8 +528,14 @@ Schedule 2 css ******************/
   margin-top: -80px;
   z-index: -10;
 }
-@media screen and (min-width:700px){
+@media screen and (max-width: 700px){
+  #schedule2 .background-monster img{
+      height: 100px;
+  }
+}
 
+
+@media screen and (min-width:700px){
 
 
 #schedule2 .scheduleContainer {
@@ -824,7 +835,7 @@ Schedule 2 css ******************/
 }
 
 #sponsors .logo-wrapper{
-  width: 80%;
+  width: 100%;
   float: center;
   margin-top: 30px;
   margin-left: auto;
