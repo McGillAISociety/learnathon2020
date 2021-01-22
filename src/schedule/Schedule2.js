@@ -34,7 +34,7 @@ class Schedule2 extends Component{
             <h3 className="session-title">Sandi Mak</h3>
           </div>
           <div className="session session-3 track-3" style={{"grid-column":"track-3-start", "grid-row":"time-1100"}}>
-            <h3 className="session-title">TBD</h3>
+            <h3 className="session-title">Wrnch</h3>
           </div>
 
           <h2 className="time-slot" style={{"grid-row": "time-1200"}}>12:00pm</h2>
