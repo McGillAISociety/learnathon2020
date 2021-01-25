@@ -13,8 +13,11 @@ class Fair extends Component{
             <div class = "column">
               <div class="inner-column">
                 <Title titleColor='#8becff'>Poster Fair</Title>
-                <Button color="#fff" bgcolor="#ffa9a8" fontsize="1.4em" href="https://docs.google.com/forms/d/e/1FAIpQLScB4MQJ6_p3NTvBvQHJIlxF-QPhf4tnH2d_Ou4KPTuwvFbRUA/viewform" alt="poster fair form" target="_blank" rel="noopener noreferrer">
-                  Apply now!  <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></Button>
+                <Button color="#fff" bgcolor="#ffa9a8" fontsize="1.4em">
+                  Apps closed <i class ="fa fa-hourglass-end" aria-hidden="true"></i></Button>
+               {/* //<Button color="#fff" bgcolor="#ffa9a8" fontsize="1.4em" href="https://docs.google.com/forms/d/e/1FAIpQLScB4MQJ6_p3NTvBvQHJIlxF-QPhf4tnH2d_Ou4KPTuwvFbRUA/viewform" alt="poster fair form" target="_blank" rel="noopener noreferrer">
+                 Apply now!  <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></Button>
+                  */}
               </div>
             </div>
             <div class = "column">
