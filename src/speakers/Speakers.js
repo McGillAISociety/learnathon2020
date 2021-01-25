@@ -9,6 +9,7 @@ import monster from './char2-large.png';
 import MakFill from './mak-fillin.png';
 import Mak from './Sandi Mak.jpg';
 import Castro from './PabloCastroSquare.png';
+import Tsiolis from './KC Tsiolis.jpg';
 
 import Title from '../Title.js';
 
@@ -66,6 +67,29 @@ class Speakers extends Component {
                   He also serves as co-founder and chair of Climate Change AI and scientific
                   co-director of Sustainability in the Digital Age. His research focuses on
                   deep learning theory and applying machine learning to climate change.
+                  </p>
+
+                </div>
+
+
+                <div class="gallery-cell">
+                <motion.div
+                  initial={{scale: 1}}
+                  whileHover={{scale: 1.05}}
+                  className="speaker-animate"
+                >
+                  <a className="speaker-links" href="http://kctsiolis.github.io/"
+                    target="_blank" rel="noreferrer">
+                  <img className=" speaker-pic" src= {Tsiolis} alt = "KC Tsiolis" />
+                  <p className="speaker-name">KC Tsiolis</p></a>
+                  </motion.div>
+                  <p className="position-title"> NLP</p>
+                  <p className="speaker-description">KC Tsiolis is a third-year Honours Mathematics and Computer
+                  Science student at McGill University. He conducted research
+                  at <a href="https://mila.quebec/" target="_blank" rel="noreferrer">Mila</a> and the
+                  McGill Reasoning and Learning Lab under the supervision of Jackie Cheung.
+                  His research interests include (but are not limited to) distributional semantics and word embeddings, computational
+                  pragmatics, commonsense reasoning, and the mathematics of machine learning.
                   </p>
 
                 </div>

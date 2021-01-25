@@ -47,7 +47,7 @@ class Schedule2 extends Component{
             <h3 className="session-title">Prof. AJung Moon</h3>
           </div>
           <div className="session session-5 track-2" style={{"grid-column":"track-2-start", "grid-row":"time-1300"}}>
-            <h3 className="session-title">TBD</h3>
+            <h3 className="session-title">KC Tsiolis</h3>
           </div>
           <div className="session session-5 track-3" style={{"grid-column":"track-3-start", "grid-row":"time-1300"}}>
             <h3 className="session-title">TBD</h3>
