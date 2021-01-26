@@ -68,7 +68,7 @@ class Schedule2 extends Component{
           <h2 className="time-slot" style={{"grid-row": "time-1500"}}>3:00pm</h2>
           <h2 className="time-slot" style={{"grid-row": "time-1600"}}>4:00pm</h2>
           <div className="session session-7 track-all" style={{"grid-column":"track-1-start / track-3-end", "grid-row":"time-1500 / time-1700", 'background-color':'#8becff'}}>
-            <h3 className="session-title">Career Fair & Undergraduate Poster Presentation</h3>
+            <h3 className="session-title">Career Fair</h3>
           </div>
 
           <h2 className="time-slot" style={{"grid-row": "time-1700"}}>5:00pm</h2>
