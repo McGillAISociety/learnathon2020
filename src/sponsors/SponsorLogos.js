@@ -58,7 +58,8 @@ export default () => (
         src={Microsoft}
         href="https://careers.microsoft.com/students/us/en/"
       />
-
+    </LogoRow>
+    <LogoRow>
       <Logo
         alt="Wrnch"
         src={Wrnch}
@@ -66,11 +67,6 @@ export default () => (
       />
       </LogoRow>
       <LogoRow>
-    <Logo
-      alt="IntactLab"
-      src={Intact}
-      href="https://careers.intact.ca/ca/en/c/intact-lab-jobs?s=1"
-    />
     <Logo
       alt="Square Point Capital"
       src={SqrPnt}
