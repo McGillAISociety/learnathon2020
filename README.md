@@ -1,3 +1,8 @@
+# The McGill AI Learnathon 2021 Website 
+
+This is a single page React website, built for the 2021 McGill AI Learnathon, organised by [McGill Ai](https://www.mcgillai.com/). 
+
+## Styling Notes
 Colours:
 
 - BASE: #fff white
@@ -7,10 +12,13 @@ Colours:
 - black: #040404
 - grey: #e6e6e6
 
-> Clone Repo > Go to repo directory > run `yarn` to get all the node-modules etc. > you may also have to add `yarn add react-light-accordion` for the faq >
-> run `yarn start` to see the website in your local browser.
+## Usage
 
-## Getting Started with Create React App
+To set up this repo locally, firstly clone it to your machine and navigate to the repo directory in your command line. Run `yarn` to get all the node-modules necessary for the site to run. You may have to also add `yarn add react-light-accordion` for the faq to work. 
+
+Run `yarn start` to see the website in your local browser - eg.`127.0.0.1:3000`.
+
+## Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -44,8 +52,11 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-### Deployment
+## Deployment
 
-Deployment is a little finnicky.
+Deployment is a little finnicky. 
+
 (Make sure you've run `yarn add gh-pages` before this!) 
 First, run `yarn run deploy` in the root directory of the repository. This will create an optimized build of the site and push it to the remote `gh-pages` branch. For some reason, this also overwrites the Custom domain we have set for this project. You'll then need to go to this project's [Settings page](https://github.com/McGillAISociety/mais21-ConferenceSite/settings), scroll to the Github pages section, and fill in the `Custom domain` text box (which is now empty) with `mcgillailearn.com`. Do NOT prepend `mcgillailearn.com` with `www.` or `https://`. Your new site should now be deployed!
+
+
